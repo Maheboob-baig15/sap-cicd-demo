@@ -1,0 +1,13 @@
+{
+  "name": "sap-cicd-demo",
+  "version": "1.0.0",
+  "description": "Dummy project to practice SAP CI/CD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Running tests... (none yet)\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
