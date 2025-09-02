@@ -1,0 +1,19 @@
+# Minimal pipeline configuration for SAP CI/CD Service
+stages:
+  - name: Build
+    type: script
+    script: |
+      echo "Hello from SAP CI/CD Pipeline"
+      echo "Build successful!"
+
+  - name: Test
+    type: script
+    script: |
+      echo "Running dummy tests..."
+      echo "All tests passed!"
+
+  - name: Deploy
+    type: script
+    script: |
+      echo "Simulating deployment..."
+      echo "Deployment successful!"
